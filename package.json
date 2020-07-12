@@ -1,0 +1,9 @@
+{
+  "name": "@powerkernel/prettier-config",
+  "version": "1.0.0",
+  "description": "Power Kernel Prettier config",
+  "main": "index.json",
+  "repository": "git@github.com:powerkernel/prettier-config.git",
+  "author": "Harry Tang <harry@powerkernel.com>",
+  "license": "MIT"
+}
