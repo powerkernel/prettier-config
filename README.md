@@ -7,14 +7,14 @@
 **Install**:
 
 ```bash
-npm install --save-dev prettier
+npm install --save-dev prettier @powerkernel/prettier-config
 ```
 
-**Edit `package.json`**:
+**Edit `.prettierrc.js`**:
 
 ```jsonc
-{
-  // ...
-  "prettier": "@powerkernel/prettier-config"
+module.exports = {
+  ...require("@powerkernel/prettier-config"),
 }
+
 ```
