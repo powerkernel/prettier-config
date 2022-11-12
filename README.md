@@ -7,7 +7,7 @@
 **Install**:
 
 ```bash
-npm install --save-dev @powerkernel/prettier-config
+npm install --save-dev prettier
 ```
 
 **Edit `package.json`**:
