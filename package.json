@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Power Kernel Prettier config",
   "main": "index.json",
+  "scripts": {
+    "release": "npx standard-version && git push --follow-tags origin main"
+  },
   "repository": "git@github.com:powerkernel/prettier-config.git",
   "author": "Harry Tang <harry@powerkernel.com>",
   "license": "MIT"
